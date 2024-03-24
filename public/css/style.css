@@ -946,6 +946,7 @@ textarea.form-control {
   border-radius: 0px;
   margin-bottom: 30px;
   border: 1px solid #e6e6e6;
+  height: 350px;
 }
 
 .media-feature .icon {
@@ -1283,6 +1284,18 @@ textarea.form-control {
 
 .sobreNos p{
     font-size: 17px;
+}
+
+input.form-control:focus{
+    border-radius: 3px;
+    border: 2px solid #ff6d24;
+    background-color: #252424;
+}
+
+textarea.form-control:focus{
+    border-radius: 3px;
+    border: 2px solid #ff6d24;
+    background-color: #252424;
 }
 
 @media (max-width:1200px) {

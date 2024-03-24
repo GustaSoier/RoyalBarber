@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <title>Royal Barber</title>
     <meta charset="utf-8">
