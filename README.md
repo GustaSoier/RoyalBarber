@@ -1,66 +1,38 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# RoyalBarber
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+RoyalBarber é um sistema de gestão para barbearias, projetado para simplificar o agendamento de serviços, gerenciar clientes e fornecer uma experiência de usuário intuitiva. O sistema inclui um formulário de contato funcional que permite aos clientes entrar em contato diretamente com a barbearia, além de um sistema de login para acesso ao painel do cliente.
 
-## About Laravel
+## Funcionalidades Principais
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Formulário de Contato**: Os clientes podem enviar mensagens diretamente para a barbearia através de um formulário de contato.
+- **Sistema de Login**: Os clientes podem se autenticar utilizando suas credenciais ou se cadastrar caso não tenham uma conta.
+- **Painel do Cliente**: Após o login, os clientes têm acesso a um painel personalizado onde podem visualizar seus agendamentos passados e futuros, além de realizar alterações em suas informações pessoais.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Como Utilizar
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. **Clonar o Repositório**: Clone este repositório em sua máquina local utilizando o comando:
+git clone https://github.com/seu-usuario/RoyalBarber.git
 
-## Learning Laravel
+2. **Configuração do Banco de Dados**: Configure um banco de dados MySQL e importe o arquivo `database.sql` fornecido para criar a estrutura do banco de dados necessária.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+3. **Configuração do Ambiente**: Configure as variáveis de ambiente no arquivo `.env` com as informações de conexão ao banco de dados.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+4. **Execução do Sistema**: Inicie o servidor PHP e abra o sistema em seu navegador.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+5. **Utilização do Sistema**: Explore as diferentes funcionalidades do sistema, incluindo o formulário de contato, sistema de login e painel do cliente.
 
-## Laravel Sponsors
+## Linguagens Utilizadas
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- PHP
+- MySQL
+- HTML
+- CSS
+- JavaScript
 
-### Premium Partners
+## Contribuindo
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para reportar bugs, sugerir melhorias ou enviar pull requests.
 
-## Contributing
+## Licença
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
